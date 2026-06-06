@@ -83,8 +83,8 @@ profiles.yml    -> Warehouse connection configuration
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/Stellarcube/netflix-analytics-pipeline/edit/main/README.md
-cd netflix-analytics-pipeline
+git clone https://github.com/Stellarcube/enterprise-analytics-pipeline/edit/main/README.md
+cd enterprise-analytics-pipeline
 ```
 
 ---
@@ -137,7 +137,7 @@ pip install dbt-snowflake
 ### 6. Initialize DBT Project
 
 ```
-dbt init Netflix
+dbt init enterprise
 ```
 
 Follow prompts to configure Snowflake connection details.
