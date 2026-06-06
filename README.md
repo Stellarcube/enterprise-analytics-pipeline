@@ -1,12 +1,12 @@
-# Netflix Data Analysis with DBT
+# Enterprise Data Analysis with DBT
 
-This project demonstrates an end-to-end data analysis pipeline for Netflix data using **DBT (Data Build Tool)**. It covers extraction, transformation, and loading (ETL) processes with a strong focus on building production-grade analytical data models.
+This project demonstrates an end-to-end data analysis pipeline for enterprise data using **DBT (Data Build Tool)**. It covers extraction, transformation, and loading (ETL) processes with a strong focus on building production-grade analytical data models.
 
 ---
 
 ## 📌 Project Overview
 
-The project transforms raw Netflix datasets into structured, analytics-ready tables using DBT.
+The project transforms raw Movielens datasets into structured, analytics-ready tables using DBT.
 This enables scalable data modeling, automated testing, lineage tracking, and documentation — all essential components of modern data engineering and business intelligence workflows.
 
 ---
@@ -41,7 +41,7 @@ This enables scalable data modeling, automated testing, lineage tracking, and do
 
 The project follows a modern ELT analytics engineering architecture.
 
-Raw Netflix datasets are first stored in Amazon S3, acting as the landing zone for immutable source data.
+Raw Movielens datasets are first stored in Amazon S3, acting as the landing zone for immutable source data.
 Data is then ingested into Snowflake, where transformations are performed using dbt.
 
 The transformation layer standardizes raw data through staging and intermediate models before producing analytics-ready dimensional marts. Slowly Changing Dimension (SCD Type 2) logic is implemented using dbt snapshots to preserve historical changes.
