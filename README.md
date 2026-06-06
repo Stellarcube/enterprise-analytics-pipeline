@@ -120,7 +120,7 @@ pip install dbt-snowflake
 
 ### 4. Configure AWS S3
 
-* Create an S3 bucket (e.g., `netflix-data-bucket`)
+* Create an S3 bucket (e.g., `enterprise-data-bucket`)
 * Generate AWS Access Key ID and Secret Access Key with appropriate permissions
 
 ---
