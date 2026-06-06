@@ -83,7 +83,7 @@ profiles.yml    -> Warehouse connection configuration
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/Stellarcube/enterprise-analytics-pipeline/edit/main/README.md
+git clone https://github.com/Stellarcube/enterprise-analytics-pipeline
 cd enterprise-analytics-pipeline
 ```
 
