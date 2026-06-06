@@ -53,14 +53,18 @@ The final analytics marts enable dashboarding, ad-hoc analysis, and business rep
 ## 📂 Project Structure
 
 ```
-models/        -> Transformation logic (staging + dimensional models)
-seeds/         -> Static CSV datasets loaded directly into the warehouse
-macros/        -> Reusable SQL macros
-snapshots/     -> Slowly Changing Dimension (SCD) tracking
-analysis/      -> Analytical queries for exploration
-tests/         -> Data quality validations
-dbt_project.yml -> DBT project configuration
-profiles.yml    -> Warehouse connection configuration
+enterprise-analytics-pipeline/
+│
+├── models/
+├── snapshots/
+├── tests/
+├── macros/
+├── seeds/
+├── analysis/
+├── dbt_project.yml
+├── packages.yml
+├── README.md
+└── .gitignore
 ```
 
 ---
